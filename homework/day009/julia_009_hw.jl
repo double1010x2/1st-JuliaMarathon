@@ -37,7 +37,7 @@ println("[Merge Sort]")
 
 ## Partial Quick Sort
 println("[Partial Quick Sort]")
-@time is = sort(x; alg=PartialQuickSort(10000)) 
+@time is = sort(x; alg=PartialQuickSort(length(x))) 
 
 # %%
 

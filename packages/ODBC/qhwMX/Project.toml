@@ -1,0 +1,32 @@
+name = "ODBC"
+uuid = "be6f12e9-ca4f-5eb2-a339-a4f995cc0291"
+version = "1.0.4"
+
+[deps]
+DBInterface = "a10d1c49-ce27-4219-8d33-6db1a4562965"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+DecFP = "55939f99-70c6-5e9b-8bb0-5071ed7d61fd"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+iODBC_jll = "80337aba-e645-5151-a517-44b13a626b79"
+unixODBC_jll = "1841a5aa-d9e2-579c-8226-32ed2af93ab1"
+
+[compat]
+DBInterface = "2"
+DecFP = "0.4.10, 1"
+Tables = "1"
+iODBC_jll = "3.52"
+julia = "1"
+unixODBC_jll = "2.3"
+
+[extras]
+MariaDB_Connector_C_jll = "aabc7e14-95f1-5e66-9f32-aea603782360"
+MariaDB_Connector_ODBC_jll = "1124d457-72a3-5205-9757-36a127c7d0f8"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "MariaDB_Connector_ODBC_jll", "MariaDB_Connector_C_jll"]

@@ -1,0 +1,171 @@
+include:
+  - 'https://raw.githubusercontent.com/JuliaGPU/gitlab-ci/master/templates/v6.yml'
+
+image: ubuntu:bionic
+
+variables:
+  CI_APT_INSTALL: 'libgomp1'
+  NVIDIA_VISIBLE_DEVICES: 'all'
+  NVIDIA_DRIVER_CAPABILITIES: 'compute,utility'
+
+
+# Julia versions
+
+# the "primary" target, where we require a new GPU to make sure all tests are run
+julia:1.4:
+  extends:
+    - .julia:1.4
+    - .test
+  tags:
+    - nvidia
+    - latest
+  variables:
+    CI_THOROUGH: 'true'
+
+julia:1.5:
+  extends:
+    - .julia:1.5
+    - .test
+  tags:
+    - nvidia
+
+
+# CUDA versions
+
+# NOTE: we support those CUDA versions for which the latest cuDNN is available
+#       https://developer.nvidia.com/rdp/cudnn-archive
+
+cuda:10.2:
+  extends:
+    - .julia:1.4
+    - .test
+  image: ubuntu:bionic
+  variables:
+    CI_THOROUGH: 'true'
+    JULIA_CUDA_VERSION: '10.2'
+    JULIA_CUDA_USE_BINARYBUILDER: 'true'
+  tags:
+    - nvidia
+    - latest
+    - cuda_10.2
+
+cuda:10.1:
+  extends:
+    - .julia:1.4
+    - .test
+  image: ubuntu:bionic
+  variables:
+    JULIA_CUDA_VERSION: '10.1'
+    JULIA_CUDA_USE_BINARYBUILDER: 'true'
+  tags:
+    - nvidia
+    - latest
+    - cuda_10.1
+
+cuda:10.0:
+  extends:
+    - .julia:1.4
+    - .test
+  image: ubuntu:bionic
+  variables:
+    JULIA_CUDA_VERSION: '10.0'
+    JULIA_CUDA_USE_BINARYBUILDER: 'true'
+  tags:
+    - nvidia
+    - cuda_10.0
+
+cuda:9.2:
+  extends:
+    - .julia:1.4
+    - .test
+  image: ubuntu:bionic
+  variables:
+    JULIA_CUDA_VERSION: '9.2'
+    JULIA_CUDA_USE_BINARYBUILDER: 'true'
+  tags:
+    - nvidia
+    - cuda_9.2
+
+# NOTE: CUDA 9.0 is broken
+
+cuda:none:
+  extends:
+    - .julia:1.4
+    - .test
+  variables:
+    NVIDIA_VISIBLE_DEVICES: ''
+  script:
+    - julia --project -e 'using Pkg;
+                          Pkg.instantiate();
+                          Pkg.build()'
+    - julia --project -e 'using CUDAnative;
+                          @assert !CUDAnative.functional(true)'
+
+
+
+# special tests
+
+debug:
+  extends:
+    - .julia:1.4
+    - .test
+  tags:
+    - nvidia
+  script:
+    - julia --project -g2 -e 'using Pkg;
+                              Pkg.instantiate();
+                              Pkg.build();
+                              Pkg.test(; coverage=true);'
+
+
+# reverse tests
+
+# NOTE: reverse testing is tricky because of Manifests. we instantiate both, give priority
+#       to this package's Manifest, and manually run tests outside of the test environment.
+#       that means we have to manually install CuArrays' test dependencies though.
+
+cuarrays:
+  extends:
+    - .julia:1.4
+    - .test
+  tags:
+    - nvidia
+  image: nvidia/cuda:10.1-devel
+  variables:
+    JULIA_CUDA_USE_BINARYBUILDER: 'false'
+  script:
+    - export CUARRAYS=".julia/dev/CuArrays"
+    - julia -e 'using Pkg;
+                Pkg.develop("CuArrays");'
+    - julia --project -e 'using Pkg;
+                          Pkg.instantiate()'
+    - julia --project=$CUARRAYS -e 'using Pkg;
+                                    Pkg.instantiate();
+                                    Pkg.add(["FFTW", "ForwardDiff", "FillArrays"])'
+    - JULIA_LOAD_PATH=".:$CUARRAYS::" julia $CUARRAYS/test/runtests.jl
+  allow_failure: true
+
+
+# other tasks
+
+coverage:
+  extends:
+    - .julia:1.4
+    - .coverage
+
+documentation:
+  extends:
+    - .julia:1.4
+    - .documentation
+  tags:
+    - nvidia
+
+pages:
+  stage: deploy
+  script:
+    - mv docs/build public
+  artifacts:
+    paths:
+    - public
+  only:
+    - master

@@ -1,0 +1,16 @@
+[[Mesa]]
+arch = "i686"
+git-tree-sha1 = "859267f6f83de2c0dc52da26c2d001299dfbeb3c"
+os = "windows"
+
+    [[Mesa.download]]
+    sha256 = "5ac1fd186bce9679734a6adb0bcc8215807fb49c3b5fac200cede748c1a5f260"
+    url = "https://github.com/JuliaBinaryWrappers/Mesa_jll.jl/releases/download/Mesa-v20.1.5+0/Mesa.v20.1.5.i686-w64-mingw32.tar.gz"
+[[Mesa]]
+arch = "x86_64"
+git-tree-sha1 = "1f57585efd7001cf4b4c1f1b355c97909637c0f2"
+os = "windows"
+
+    [[Mesa.download]]
+    sha256 = "bd3899148e579b72fd0ae4ec5a71916602529bc284698db58b7b06b3d9b4261f"
+    url = "https://github.com/JuliaBinaryWrappers/Mesa_jll.jl/releases/download/Mesa-v20.1.5+0/Mesa.v20.1.5.x86_64-w64-mingw32.tar.gz"

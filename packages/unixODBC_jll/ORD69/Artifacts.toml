@@ -1,0 +1,113 @@
+[[unixODBC]]
+arch = "i686"
+git-tree-sha1 = "3b2a3db9784858383567df30340177a6f9e56d9e"
+libc = "musl"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "84c51215a0b79f9e3cc76c663dc7df62e6c65a6f37f371180a9ac99ce5023600"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.i686-linux-musl.tar.gz"
+[[unixODBC]]
+arch = "aarch64"
+git-tree-sha1 = "0b2e5b24ae425acb42fb7009308833ff81fb6e6c"
+libc = "musl"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "0964e4c75eba1d9e0753c2ac70a20bbd891bcb255fa650d7df526fc63fd526ee"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.aarch64-linux-musl.tar.gz"
+[[unixODBC]]
+arch = "i686"
+git-tree-sha1 = "be47ac84d7625544b8681a745302b016389b6d58"
+os = "windows"
+
+    [[unixODBC.download]]
+    sha256 = "1a51b01948c5ed71af7f1b46c369228c2d5a21eae2aed492ead54f832942e9af"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.i686-w64-mingw32.tar.gz"
+[[unixODBC]]
+arch = "x86_64"
+git-tree-sha1 = "1ac27fefcfae3553f7a98566363c2cf9bcf4d81d"
+os = "windows"
+
+    [[unixODBC.download]]
+    sha256 = "7ea835b996f610263078e1954631e40442fa14436ee071e6cd67a9de68f0d9b6"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.x86_64-w64-mingw32.tar.gz"
+[[unixODBC]]
+arch = "armv7l"
+git-tree-sha1 = "e07cbf837ee9c521f317a755bffc8ab1e4c2c341"
+libc = "glibc"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "32127be46db0dff96a43e443aa8e2656cf891b10206410faba48e36f04ce2ff1"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.armv7l-linux-gnueabihf.tar.gz"
+[[unixODBC]]
+arch = "armv7l"
+git-tree-sha1 = "5cf6646911e5f0a619da02171d7f382c690838b9"
+libc = "musl"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "19715bf4bc0de26e1819da3e034b1ba94a149db25f028abbdb36d4b81ceca2d6"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.armv7l-linux-musleabihf.tar.gz"
+[[unixODBC]]
+arch = "i686"
+git-tree-sha1 = "adefb6ec727eedeb615fd071acb417dd82d19543"
+libc = "glibc"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "bc262356f440da9ce9a0b7140b2389050709bb8f7b4d2881bc381b9caedf9eef"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.i686-linux-gnu.tar.gz"
+[[unixODBC]]
+arch = "x86_64"
+git-tree-sha1 = "44c11f3fb310ee05476bf898da84b7af70f4f30a"
+libc = "glibc"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "f394e5d96fc75ffbb29162aa9afceebadbdd7aa2513ea4e21cb26d4b05b78909"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.x86_64-linux-gnu.tar.gz"
+[[unixODBC]]
+arch = "powerpc64le"
+git-tree-sha1 = "ca2827beb98011d57d049a3bb41f83e8cbaaa69e"
+libc = "glibc"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "8c3896a0d14e372b00bcecc44d04f9b72b3e80b6268bda7f4f96c635766b5f7e"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.powerpc64le-linux-gnu.tar.gz"
+[[unixODBC]]
+arch = "x86_64"
+git-tree-sha1 = "8f81637f18989acbb21dba03d07cc40bd640a28c"
+os = "macos"
+
+    [[unixODBC.download]]
+    sha256 = "fa5479dfc6bd856ec61f17d14411bec383ae9dda47cf8ba2cec70975087ee5c8"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.x86_64-apple-darwin14.tar.gz"
+[[unixODBC]]
+arch = "aarch64"
+git-tree-sha1 = "e382091acd3fcb432ca2ba768775849b0fc5ed34"
+libc = "glibc"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "25e12c168112b544c1b15c3bba0300c461bb0614f966b78d7a203a0327068b50"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.aarch64-linux-gnu.tar.gz"
+[[unixODBC]]
+arch = "x86_64"
+git-tree-sha1 = "b82645d97b2f84518f79dda131bfed60226b9b35"
+os = "freebsd"
+
+    [[unixODBC.download]]
+    sha256 = "7106e1dc1eb3caf8164649bcc675f593e2189b961885f527017161a370cb82d0"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.x86_64-unknown-freebsd11.1.tar.gz"
+[[unixODBC]]
+arch = "x86_64"
+git-tree-sha1 = "e5066d82c20e614aae8020ca234393f671a3ee77"
+libc = "musl"
+os = "linux"
+
+    [[unixODBC.download]]
+    sha256 = "ef6020f4a3971ad00390ad62d53ad1c95e3909ce7b90fc159178c8f272e1344e"
+    url = "https://github.com/JuliaBinaryWrappers/unixODBC_jll.jl/releases/download/unixODBC-v2.3.7+0/unixODBC.v2.3.7.x86_64-linux-musl.tar.gz"

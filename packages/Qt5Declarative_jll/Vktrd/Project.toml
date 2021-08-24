@@ -1,0 +1,14 @@
+name = "Qt5Declarative_jll"
+uuid = "c6373c32-5b88-5913-90f5-31d7686b42da"
+version = "5.15.2+0"
+
+[deps]
+Qt5Base_jll = "ea2cea3b-5b76-57ae-a6ef-0a8af62496e1"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+JLLWrappers = "1.2.0"
+julia = "1.0"

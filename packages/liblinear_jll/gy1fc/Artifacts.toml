@@ -1,0 +1,113 @@
+[[liblinear]]
+arch = "aarch64"
+git-tree-sha1 = "44b3a6081a3acb6e9ab2a8f5c60691fbf0002413"
+libc = "glibc"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "e189897a2645bc24e48323fe5bb276a0179c9e624d9bcd513df8d1e6facd7f81"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.aarch64-linux-gnu.tar.gz"
+[[liblinear]]
+arch = "aarch64"
+git-tree-sha1 = "032ca2ec4173c797c8c9bb773d09e8bd582918b0"
+libc = "musl"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "ac9d049219b6ddf7a756525bdee00a20d15ff23434954f4cc6f79879bb67e6b4"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.aarch64-linux-musl.tar.gz"
+[[liblinear]]
+arch = "armv7l"
+git-tree-sha1 = "ad00395028f76cf77e0b90f746bfd9709492a708"
+libc = "glibc"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "932e1783812c32b83c9b6d946f7d19b031f7a41d5f8749d9699c9c3a41768b1b"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.armv7l-linux-gnueabihf.tar.gz"
+[[liblinear]]
+arch = "armv7l"
+git-tree-sha1 = "09c9d724f4115869140f8ec983e7edb886bd5fba"
+libc = "musl"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "f1ac42e4ffff750ff2f030c2619a4e12258f692b5baf4208d2a584b1707f104e"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.armv7l-linux-musleabihf.tar.gz"
+[[liblinear]]
+arch = "i686"
+git-tree-sha1 = "6ac205ec0bb4d92cdfcba1c56bc992940d9bec80"
+libc = "glibc"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "f5e61b869cee0f02bae280e34fb5130d848142ba4a9db9381390e3b10154941a"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.i686-linux-gnu.tar.gz"
+[[liblinear]]
+arch = "i686"
+git-tree-sha1 = "354d6d9e15464b2a0dd6a7fde11da4bd8bcc670f"
+libc = "musl"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "93ea87eed5085e305cf36e6ef11dfad1c50c6764851c1c5d67beef55bcf8e3b0"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.i686-linux-musl.tar.gz"
+[[liblinear]]
+arch = "i686"
+git-tree-sha1 = "849dab4b54db9db7d653b7a61041375d438dcfae"
+os = "windows"
+
+    [[liblinear.download]]
+    sha256 = "f0fdfb96745be5deddfdfb7767e3a8e402906cac183e8bf913832a6abeb3fb79"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.i686-w64-mingw32.tar.gz"
+[[liblinear]]
+arch = "powerpc64le"
+git-tree-sha1 = "43f1b6848756baedfa262f0b9d5d9375b2c5ccf9"
+libc = "glibc"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "fa5259a6c75a7c2ae9e81ce28d100366a82cd4ff9d9cfa7f8178cab3affb8ef4"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.powerpc64le-linux-gnu.tar.gz"
+[[liblinear]]
+arch = "x86_64"
+git-tree-sha1 = "67392498ae3ed1c95e47b4779470c913decdac4e"
+os = "macos"
+
+    [[liblinear.download]]
+    sha256 = "7c2125d434e03a3c733a166ad85c038c11a16e9b9b6dee5781161e64edfbcd82"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.x86_64-apple-darwin14.tar.gz"
+[[liblinear]]
+arch = "x86_64"
+git-tree-sha1 = "6056b9cdd8913421cbce01fd10884591dbd6d079"
+libc = "glibc"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "da6b5651d53b2c9e6b489f0ac1b79f8a4a54c9e0d3bf48a3287081f186e3317c"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.x86_64-linux-gnu.tar.gz"
+[[liblinear]]
+arch = "x86_64"
+git-tree-sha1 = "9c77bfc3c51b251fdec9fa48af51505fdaaa9ac6"
+libc = "musl"
+os = "linux"
+
+    [[liblinear.download]]
+    sha256 = "97d5ffa16fb12f3d9c19f53576d9506469272659a78af9c280b03b9599faf5f3"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.x86_64-linux-musl.tar.gz"
+[[liblinear]]
+arch = "x86_64"
+git-tree-sha1 = "9b3f1999c614d34e37c5b16fa6178b2668ee79a2"
+os = "freebsd"
+
+    [[liblinear.download]]
+    sha256 = "9c575fa9cc033c140109732d25afcc28727cddb160717a0c8a1416e0fa6df1c1"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.x86_64-unknown-freebsd11.1.tar.gz"
+[[liblinear]]
+arch = "x86_64"
+git-tree-sha1 = "ea2251994a52417aec226b70d34407fdcec0fba5"
+os = "windows"
+
+    [[liblinear.download]]
+    sha256 = "0cbc97ef39b528be70df994a4f784492b4393bc6d6906c8f7c565292c381edfe"
+    url = "https://github.com/JuliaBinaryWrappers/liblinear_jll.jl/releases/download/liblinear-v2.30.0+0/liblinear.v2.30.0.x86_64-w64-mingw32.tar.gz"

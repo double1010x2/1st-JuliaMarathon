@@ -1,0 +1,154 @@
+[[Qt5Declarative]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a36f7d46451e446bc0c76ad3ed9d9250f411d746"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "d28543a69917255474630c55460b3d281c779d9243e52dc89450f8f030cd924a"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.aarch64-linux-gnu-cxx03.tar.gz"
+[[Qt5Declarative]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a498a605bb07a50a1572212035cc557a6c75af66"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "aa9b4adf7c8e87c833f600322594751a8137c13ef8ba7c51ef622e144852ee0a"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.aarch64-linux-gnu-cxx11.tar.gz"
+[[Qt5Declarative]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "085bc6a5acc28bc7007bd60a38ff6349463f2ae2"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "f1b04f84324369e62c7abd29c718e917fb98ae5edca1bef27a7aa1c491090de5"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[Qt5Declarative]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2c820ef0c4116389ab710dd91699ae64822a7716"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "7561b30c1d5f6b2ed8dae8b14feb448cbd1b255c77aab312780dc7423f43c9dd"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Qt5Declarative]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8f926f6510feb34a26eec986bcf1c5b9167f1c4e"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "99644f949cd9f8c5e2c6b6536d4ca5807f204de994027e7d781c1d597ce0d051"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.i686-linux-gnu-cxx03.tar.gz"
+[[Qt5Declarative]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "73300891b4495673bfa23811412f186a60c68e62"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "3e921721a97f309a99113e869d169e1615f2b2a7f2f10382394fdb68b2b5a5e1"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.i686-linux-gnu-cxx11.tar.gz"
+[[Qt5Declarative]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c38934852df21e63a8d9dcc0cb2c559dbc73e1bb"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "0e8dcd42b121dd8a346585072fc70e76e91e35b9b04a30c8eb552e7f2160fbe5"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[Qt5Declarative]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2b8e86525cb0b997c85605329c762b16f33f6767"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "78db26046e7783efc286c6a3c8bab7e29c11d9d8156a132e29adc94d66e9546f"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[Qt5Declarative]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2339feb93a771c69213d80ee0bd5a8f7469cf95d"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "c5d806abf5425fe43e36cc2a20f12722e375c370f3c1a4fcbf3493325e84e2dd"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.x86_64-linux-gnu-cxx03.tar.gz"
+[[Qt5Declarative]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2ffcdc2ac66c9a0edc6c1f429199e8dc6041906b"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Declarative.download]]
+    sha256 = "2fa55fddcc59416697bc5e2985d288ebacd9a05569ddcf8888d149ccad355b32"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.x86_64-linux-gnu-cxx11.tar.gz"
+[[Qt5Declarative]]
+arch = "x86_64"
+git-tree-sha1 = "0c17ebaced896feef49f4551b730103466a765b5"
+os = "freebsd"
+
+    [[Qt5Declarative.download]]
+    sha256 = "42748498d75f344213fe0e684bffbedd9a4fd24a7691892fdb60422eb81dacef"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.x86_64-unknown-freebsd.tar.gz"
+[[Qt5Declarative]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "093bc61708a0576664043798963315312cdefbc7"
+os = "windows"
+
+    [[Qt5Declarative.download]]
+    sha256 = "d356c38628b2ffc33f92341cf3b425a2c09bc888acecf03ee8b679e46d62dba9"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.i686-w64-mingw32-cxx03.tar.gz"
+[[Qt5Declarative]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cb5076ebe84c2885201afb40b5852332de3a4678"
+os = "windows"
+
+    [[Qt5Declarative.download]]
+    sha256 = "a8cd2d72f6c91870bd51fc62960ad656f1bc9aedb85c049d775e48bf185fe00f"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.i686-w64-mingw32-cxx11.tar.gz"
+[[Qt5Declarative]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bbded9bb8bed36cc0d07a38f423f3d288c2638f4"
+os = "windows"
+
+    [[Qt5Declarative.download]]
+    sha256 = "26ea7726747c6024427dc4f290955004ebaacda0c8248b683ec1fc3378a27f9c"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Qt5Declarative]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3d123ffb43ce4b38e8eb952836d78f0452d9037d"
+os = "windows"
+
+    [[Qt5Declarative.download]]
+    sha256 = "493f987ff33c57452fefb93eb6eb7222c21af527f4b87ddf19cd6d9006a9b55b"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.x86_64-w64-mingw32-cxx11.tar.gz"
+[[Qt5Declarative]]
+arch = "x86_64"
+git-tree-sha1 = "a46117b0094c2456c0f18bd22a40c30025d08fb5"
+os = "macos"
+
+    [[Qt5Declarative.download]]
+    sha256 = "da3f3d7f2b9c21ccfdc2daa9a2540fa2e7a80c563431399ca7dd5013bad403fc"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Declarative_jll.jl/releases/download/Qt5Declarative-v5.15.2+0/Qt5Declarative.v5.15.2.x86_64-apple-darwin.tar.gz"

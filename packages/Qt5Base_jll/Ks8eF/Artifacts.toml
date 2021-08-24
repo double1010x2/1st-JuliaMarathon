@@ -1,0 +1,154 @@
+[[Qt5Base]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d0fbbc57876cbe824bccbbe5bb9db71fad8997b8"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "fe544027bc448aac805ca8a187f4b40a8c46d3db5dcefbbbd4c1163f6e8e5d16"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.aarch64-linux-gnu-cxx03.tar.gz"
+[[Qt5Base]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7bcddba4ccdfed61f9aee315a4ca2a328c694b21"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "6b6bc8a7a05c9e4864ad7a977abba8cebc911a335d30578ff7484df8782d45bb"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.aarch64-linux-gnu-cxx11.tar.gz"
+[[Qt5Base]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0d6ffb01053b759cd92354716a21f382dc940bac"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "b4fb7ac31a1932e22fad27843e71d294f5c6a99123fed832de48e880d254beb3"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[Qt5Base]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7212279fa80e07a6b2b5fbf48d1eb056cd4f0cc7"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "f32c49ab86734fbf74b98dd6d8a9c1df61fb46e6337ac07a0784463782b6671c"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Qt5Base]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7803133f1dbe356d2cf7f1ffc97eac9c220cb709"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "19731a8e04b9f653b71a8d9af2ceccb71fb38912f1bc141f19a0d66cefef167a"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.i686-linux-gnu-cxx03.tar.gz"
+[[Qt5Base]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0ad27efc0db77b2ac6377c224eaf23243ea1ecda"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "24f5edc80f0cdc1c21d05763e0c37f8d8e33d1e826c9cd8b8d99b05c9c77477d"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.i686-linux-gnu-cxx11.tar.gz"
+[[Qt5Base]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "277c13620387d5e04104964620d5c5f9a0aaffe5"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "2e7a1d502de09e5d4a7ca73fe750b4a37b1b962db8b65b52d7af555a8a0d5f8e"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[Qt5Base]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f0522334797aa296d786fb86da79511bf4493165"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "3d49a8f28b3a60d38df14d9be46855c6b87d55627a765260b79e1a51db12369c"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[Qt5Base]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7d12aa3bf71cdf166e45165dbacab376b74c89e8"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "81bd9d71dcaca17dbc999c1f1ebbcae7bfb95a52143bfefe1c8aa9322d744045"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.x86_64-linux-gnu-cxx03.tar.gz"
+[[Qt5Base]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7835210e9722f2d04d4e74972925b5c43d9cfcaa"
+libc = "glibc"
+os = "linux"
+
+    [[Qt5Base.download]]
+    sha256 = "a303b29e70770213abfdc21477c967008c8aeee536a2a7a49298f75ecc2ecde7"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.x86_64-linux-gnu-cxx11.tar.gz"
+[[Qt5Base]]
+arch = "x86_64"
+git-tree-sha1 = "e0b9a4d4b1a5ed39ec077ae44988f5174c637545"
+os = "freebsd"
+
+    [[Qt5Base.download]]
+    sha256 = "e855fa270ad9c2d4f3791f7e32c620ed174634ce1455f3021526885224734939"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.x86_64-unknown-freebsd.tar.gz"
+[[Qt5Base]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "897818bf448b89a8779bf27f913698a1e0de1ece"
+os = "windows"
+
+    [[Qt5Base.download]]
+    sha256 = "da10ae039483f77865419f23a5f25f1abf1401f1f6b73a7db7c15ec0b54d9bcb"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.i686-w64-mingw32-cxx03.tar.gz"
+[[Qt5Base]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "244b9cc4b4702bd8cb501f71bc5214cee2280abb"
+os = "windows"
+
+    [[Qt5Base.download]]
+    sha256 = "e03008af81697089df994746479275f4664c7cc07ed06a7609ec441745eddbcc"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.i686-w64-mingw32-cxx11.tar.gz"
+[[Qt5Base]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "578d29f13ee7fcec0d5ef2d0f46b184c0b8d4ba4"
+os = "windows"
+
+    [[Qt5Base.download]]
+    sha256 = "652794f416fd2b408f3755446e8b85a371337ae9dab64106b0a731a4af4155d4"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Qt5Base]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c34a53538bc6c87c8b376c3f6d0d3248830003bc"
+os = "windows"
+
+    [[Qt5Base.download]]
+    sha256 = "ae4552c1b1e9daef05acba0c05bd8d156d63fb69ef3d83228f2ceeebf5c67098"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.x86_64-w64-mingw32-cxx11.tar.gz"
+[[Qt5Base]]
+arch = "x86_64"
+git-tree-sha1 = "ee74d003b12e6dd5f748e8cefb1688edbdfb184b"
+os = "macos"
+
+    [[Qt5Base.download]]
+    sha256 = "271037b04e534b422c966b981b0e26413cc89e9f4bf49f5e3726d861b86269dc"
+    url = "https://github.com/JuliaBinaryWrappers/Qt5Base_jll.jl/releases/download/Qt5Base-v5.15.2+0/Qt5Base.v5.15.2.x86_64-apple-darwin.tar.gz"

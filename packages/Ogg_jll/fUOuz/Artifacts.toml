@@ -1,0 +1,113 @@
+[[Ogg]]
+arch = "x86_64"
+git-tree-sha1 = "4ff163baba862c7d9d7c236f957be6aed632dfef"
+os = "macos"
+
+    [[Ogg.download]]
+    sha256 = "fb95b15b0106e942028b77450bbf0329b2d8d58b591cf4c21246b7ad9bb448a2"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.x86_64-apple-darwin14.tar.gz"
+[[Ogg]]
+arch = "i686"
+git-tree-sha1 = "5bbf4eb31edc860db1f765b2e8420254c6b77c05"
+libc = "glibc"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "4ff7683d35598b5300b833547351dd11e03854f6d25a5dcea13ce51b010943e7"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.i686-linux-gnu.tar.gz"
+[[Ogg]]
+arch = "x86_64"
+git-tree-sha1 = "32fd414990228a3c58c1a5b2a23e8170a39f6156"
+os = "freebsd"
+
+    [[Ogg.download]]
+    sha256 = "88810b7d55d8a924414ee0572f1b00b8ea3573cd70b6fa1c5b1966d69df6e679"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.x86_64-unknown-freebsd11.1.tar.gz"
+[[Ogg]]
+arch = "powerpc64le"
+git-tree-sha1 = "635f1ba672b341e10779ac723c45de32fa25b999"
+libc = "glibc"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "102fd9860583b77a865ed8bea3127c4bd74f5aef92ee449798a45c82d8e614eb"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.powerpc64le-linux-gnu.tar.gz"
+[[Ogg]]
+arch = "x86_64"
+git-tree-sha1 = "7c96e27eb2d8266e0b39a377047ba815e31720eb"
+libc = "musl"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "3029c105d4642fce7445101224ed195a53cfc962bb2a7b553e3e6f107990e099"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.x86_64-linux-musl.tar.gz"
+[[Ogg]]
+arch = "x86_64"
+git-tree-sha1 = "f82a283a63288a1af3982fad4169fe8fbd785484"
+libc = "glibc"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "b28997d2e136be99972beea3419b08811e306d178d4351632ac6f09aec9209b1"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.x86_64-linux-gnu.tar.gz"
+[[Ogg]]
+arch = "x86_64"
+git-tree-sha1 = "8e5c0ff96e49241eec5822be35ce7109c2bcf934"
+os = "windows"
+
+    [[Ogg.download]]
+    sha256 = "16ee0fce0cda9b5452d325a021059c14bb25d0a1578eefa601ae137e2056f39b"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.x86_64-w64-mingw32.tar.gz"
+[[Ogg]]
+arch = "aarch64"
+git-tree-sha1 = "66c212dade75c7683322db401fbd966334f117c2"
+libc = "musl"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "7667c2ff87094a7457c05abcc241098ec90b8a1ef802f67a7435b6ff6e1b5fde"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.aarch64-linux-musl.tar.gz"
+[[Ogg]]
+arch = "armv7l"
+git-tree-sha1 = "b498dde7e8bb3cc372c219c9f5af3b9e2d6feaa3"
+libc = "glibc"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "2bac147a8d8696571d64558b7fd53d7b65eb953037ef537f89e85e412f801f41"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.arm-linux-gnueabihf.tar.gz"
+[[Ogg]]
+arch = "i686"
+git-tree-sha1 = "dd3944e2cb016bddd2b0a8f2a0ab6b4730aaac6d"
+libc = "musl"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "a070eb3745b6f0972bd9032bb2e02898cb24a6b8a99c000eaf3754ab382fbf29"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.i686-linux-musl.tar.gz"
+[[Ogg]]
+arch = "armv7l"
+git-tree-sha1 = "c247e529db32cc857bb0c95be93d0310b2f5bb59"
+libc = "musl"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "b3b1f06fa7d834a98557149ad3d021606874f5f208c9c722cfa6984ecbb2a2da"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.arm-linux-musleabihf.tar.gz"
+[[Ogg]]
+arch = "aarch64"
+git-tree-sha1 = "37467d0e223a16ceace63518e3003ec3e348e71a"
+libc = "glibc"
+os = "linux"
+
+    [[Ogg.download]]
+    sha256 = "5f29c47af530f94ba7dfe528c91311daf13a0562c8c044967d1375d182dc3fe6"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.aarch64-linux-gnu.tar.gz"
+[[Ogg]]
+arch = "i686"
+git-tree-sha1 = "88920ed6b36f3fad531719d7944a5106e2a7dfcc"
+os = "windows"
+
+    [[Ogg.download]]
+    sha256 = "4ed6cac191586cffbfdb8d2a55a595c9791c615a8dbd4476bc87be02b3f74ace"
+    url = "https://github.com/JuliaBinaryWrappers/Ogg_jll.jl/releases/download/Ogg-v1.3.3+0/Ogg.v1.3.3.i686-w64-mingw32.tar.gz"

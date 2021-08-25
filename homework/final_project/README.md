@@ -160,7 +160,7 @@
       
   end
   ```
-    ![Loading results](https://github.com/double1010x2/1st-JuliaMarathon/blob/master/homework/final_project/loading_data.pg)
+    ![Loading results](https://github.com/double1010x2/1st-JuliaMarathon/blob/master/homework/final_project/loading_data.png)
 
   > _**Network design**_
   ```julia

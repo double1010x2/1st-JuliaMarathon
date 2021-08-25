@@ -1,7 +1,0 @@
-*.dll
-*.so.2
-*.o
-test*.jl
-
-deps/build.log
-Manifest.toml

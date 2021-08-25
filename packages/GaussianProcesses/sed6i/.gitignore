@@ -1,9 +1,0 @@
-*~
-*.jl.cov
-*.jl.mem
-.juliahistory
-\#*\#
-params.json
-results.json
-docs/build/
-*/.ipynb_checkpoints

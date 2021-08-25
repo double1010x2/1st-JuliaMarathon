@@ -1,7 +1,0 @@
-*.jl.cov
-*.jl.*.cov
-*.jl.mem
-deps/ops.jl
-docs/build
-.vscode
-lcov.info

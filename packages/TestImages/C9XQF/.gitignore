@@ -1,7 +1,0 @@
-images/
-deps/*.log
-Manifest.toml
-docs/build
-docs/src/thumbnails
-docs/src/images
-docs/src/imagelist.md
